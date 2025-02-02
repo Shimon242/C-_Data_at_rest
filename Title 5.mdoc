@@ -3,18 +3,18 @@ Examine each of the options below and select the correct answer.
 
 {% choice %}
 {% question %}
-How to properly reference an environment variable named password in C#?
+How to properly extract an environment variable named password in C#?
 {% /question %}
-{% option %}{% option answer=true %}
-A variable declaration
+{% option answer=true %}
+Environment.GetEnvironmentVariable("password");
 {% /option %}
 {% option %}
-An if then statement
+echo("password");
 {% /option %}
 {% option %}
-An if statement
+return("password");
 {% /option %}
 {% option %}
-A while loop
+Console.Writeline($Password);
 {% /option %}
 {% /choice %}
